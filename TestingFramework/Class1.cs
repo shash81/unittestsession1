@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace TestingFramework
 {
-    public class Class1
+    public class MathOpeartion
     {
+        public int Add( int x, int y)
+        {
+            return x + y;
+        }
+        public int Substract(int x, int y)
+        {
+            return x - y;
+        }
+
     }
 }
